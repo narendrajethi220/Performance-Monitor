@@ -39,15 +39,15 @@ Integrates cluster adapter to enable communication across worker nodes.
 
 ## 📼 Socket.IO Event Handling (socketMain.js)
 
-Event        Description
+Event       =>    Description
 
-connect      Establishes a new WebSocket connection
+connect     =>    Establishes a new WebSocket connection
 
-disconnect   Handles disconnection events
+disconnect  =>    Handles disconnection events
 
-system-info  Sends real-time CPU and memory usage to the client
+system-info =>  Sends real-time CPU and memory usage to the client
 
-mac-address  Identifies and stores the MAC address of connected devices
+mac-address =>   Identifies and stores the MAC address of connected devices
 
 
  - [SOCKETIO with webSockets](https://www.udemy.com/course/socketio-with-websockets-the-details/)
